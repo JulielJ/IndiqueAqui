@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.indiqueaqui.indiqueaqui.Registro"
+    tools:showIn="@layout/activity_registro"
+    android:orientation="vertical"
+    android:background="#0BB990">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario de Registro"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:id="@+id/new_nome"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:id="@+id/new_usuario"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Codigo"
+        android:id="@+id/new_codigo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:id="@+id/new_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:id="@+id/new_user_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar usuario"
+        android:id="@+id/id_registro"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="userRegistro"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IndiqueAqui</string>
+    <string name="Nome">nome</string>
+    <string name="endere_o">Endereço</string>
+    <string name="Endereco">endereco</string>
+    <string name="Telefone">Telefone</string>
+    <string name="title_activity_registro">registro</string>
+</resources>
